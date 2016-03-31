@@ -1,8 +1,35 @@
 p {
 	background-color: grey;
+	font-family: "Baskerville"
 }
 
 body {
 	background-color: grey;
 	font-family: "Baskerville"
+}
+
+body p {
+	background-color: white;
+}
+
+.niceParagraph {
+	background-color: blue;
+	font-family: "Baskerville";
+}
+
+#finalParagraph {
+	background-color: yellow;
+	font-family: "Baskerville";
+}
+
+.articleContainer {
+	background-color: #FFFFFF;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.postAuthor {
+	font-size: 20px;
 }

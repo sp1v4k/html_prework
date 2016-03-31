@@ -12,37 +12,38 @@
 		<nav>
 			 <a href="about_me.html">About me</a>
 		</nav>
-		<article>
-			<h1>
-				How to make the perfect post!
-			</h1>
-			<p>
-				by sp1v4k
-			</p>
-			<p>
-				I'm <em>awesome</em> writting my <strong>first post</strong>.
-			<p>
-				<img src="/home/toni/Ironhack/html_prework/images/ironhack_logo.png">
-			</p>
-			<p>
-				<table>
-					<thead>
-						<tr><th>Weapon</th><th>DPS</th><th>Critic %</th></tr>
-					</thead>
-					<tbody>
-						<tr><td>M16</td><td>5600</td><td>2.5%</td></tr>
-						<tr><td>RPK-74</td><td>10600</td><td>1.5%</td></tr>
-						<tr><td>MP-5</td><td>3600</td><td>3.5%</td></tr>
-					</tbody>
-				</table>
-			</p>
-		</article>
+		<div class="articleContainer">
+			<article>
+				<h1>
+					How to make the perfect post!
+					<span class="postAuthor"> by @sp1v4k</span>
+				</h1>
+				<p>
+					I'm <em id="finalParagraph">awesome</em> writting my <strong>first post</strong>.
+				<p>
+					<img src="/home/toni/Ironhack/html_prework/images/ironhack_logo.png">
+				</p>
+				<p style="background-color: red;"> Bellow the weapons I use when playing "The Divison"</p>
+				<p>
+					<table>
+						<thead>
+							<tr><th>Weapon</th><th>DPS</th><th>Critic %</th></tr>
+						</thead>
+						<tbody>
+							<tr><td>M16</td><td>5600</td><td>2.5%</td></tr>
+							<tr><td>RPK-74</td><td>10600</td><td>1.5%</td></tr>
+							<tr><td>MP-5</td><td>3600</td><td>3.5%</td></tr>
+						</tbody>
+					</table>
+				</p>
+			</article>
+		</div>
 		<footer>
 		<ol>
 			<li><a href="http://twitter.com/ironhack">Twitter</a></li>
 			<li><a href="http://facebook.com/theironhack">Facebook</a></li>
 		</ol>
-		<p>Copyleft Ironhack 2015</p>
+		<p class="niceParagraph">Copyleft Ironhack 2015</p>
 		</footer>
 	</body>
 </html>
